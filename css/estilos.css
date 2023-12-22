@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 154px;
+    height: 150px;
 }
 body{
     background-image: linear-gradient(
@@ -35,7 +35,7 @@ footer{
 }
 
 .logo-imagem{
-    width: 162px;
+    width: 100px;
     height: 142px;
     background-color: #677187;
 }
@@ -48,10 +48,10 @@ footer{
 }
 .menu li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 .menu li a{
-    font-size: 24px;
+    font-size: 25px;
     text-decoration: none;
     color: #111828;
 }
@@ -59,7 +59,7 @@ footer{
 .botao{
     font-size: 16px;
     color: white;
-    padding: 3px;
+    padding: 15px;
     background-color: #677187;
     transition: background-color 0.3s;
     border-radius: 5px;
@@ -67,6 +67,10 @@ footer{
 
 .botao:hover{
     background-color: #A9ADBB;
+}
+
+.imagemPrincipal .h2 .p{
+    display: inline-block;
 }
 
 .botao-rodape{
@@ -116,7 +120,7 @@ footer{
 
 .spotify{
 
-    width:  50%;
+    width: 26%;
     border-radius: 9px;
     position: absolute;
     top: 5%;
@@ -149,21 +153,22 @@ footer{
 
 .carousel{
     align-items: center;
-    height: 400px;
+    /* height: 400px; */
     width: 400px;
     margin-left: 500px;
     margin:0px auto;
 }
 
-  .slick-slide{
+.slick-slide{
     margin:10px;
-  }
-  .slick-slide img{
+}
+
+.slick-slide img{
     width:100%;
     border: 2px solid #010000;
   }
 
-.wrapper .slick-dots li button:before {
+  .wrapper .slick-dots li button:before {
     font-size:20px;
     color:rgb(19, 5, 5);
   }
